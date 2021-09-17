@@ -1,15 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Welcome} from './Intro/welcome-app';
 
-function App() {
+function App(): JSX.Element{
+  const message: string = "Hello world!";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+          {message}
+        </p> 
+        <Welcome text="cat"></Welcome>
         <a
           className="App-link"
           href="https://reactjs.org"

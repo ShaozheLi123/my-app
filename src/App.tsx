@@ -12,7 +12,7 @@ function App(): JSX.Element{
         <p>
           {message}
         </p> 
-        <Welcome text="cat"></Welcome>
+        <Welcome></Welcome>
         <a
           className="App-link"
           href="https://reactjs.org"

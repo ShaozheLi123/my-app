@@ -39,3 +39,9 @@ export function Welcome (): JSX.Element{
     )
 }
 
+/*export function Welcome (aPerson: Person): JSX.Element{
+    return(<>
+    <div>Welcome to Shaozhe Li's APP!</div>
+    <div>{aPerson.name}</div>
+    </>)
+}*/

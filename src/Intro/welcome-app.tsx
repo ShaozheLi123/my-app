@@ -1,9 +1,6 @@
+import {Person} from "../interface/person";
 
 
-interface Person {
-    name: string
-    hairColor: string
-}
 
 
 const lsz: Person = {name: "Shaozhe", hairColor: "black"}
@@ -33,10 +30,11 @@ function adderData(data: {first: number, second: number}): number{
 adderObj({first: 1,second: 2})
 adderData({first: 1, second: 2})
 
-export function Welcome (): JSX.Element{
-    return(
+export function Welcome ({person}: {person:Person}): JSX.Element{
+    return(<>
     <div>Welcome to Shaozhe Li's APP!</div>
-    )
+    <div>{person.name}</div>
+    </>)
 }
 
 /*export function Welcome (aPerson: Person): JSX.Element{
@@ -44,4 +42,14 @@ export function Welcome (): JSX.Element{
     <div>Welcome to Shaozhe Li's APP!</div>
     <div>{aPerson.name}</div>
     </>)
-}*/
+}
+<Welcome name= "Shaozhe" hairColor = "black" ></Welcome>
+*/
+/*export function Welcome ({name, hairColor} : Person): JSX.Element{
+    return(<>
+    <div>Welcome to Shaozhe Li's APP!</div>
+    <div>{aPerson.name}</div>
+    </>)
+}
+<Welcome name= "Shaozhe" hairColor = "black" ></Welcome>
+*/

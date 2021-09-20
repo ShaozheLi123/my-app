@@ -2,9 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Welcome} from './Intro/welcome-app';
+import {Person} from "./interface/person";
 
 function App(): JSX.Element{
   const message: string = "Hello world!";
+  const shaozhe: Person = {name: "Shaozhe Li", hairColor: "blue"};
   return (
     <div className="App">
       <header className="App-header">
@@ -12,7 +14,7 @@ function App(): JSX.Element{
         <p>
           {message}
         </p> 
-        <Welcome></Welcome>
+        <Welcome person = {shaozhe}></Welcome>
         <a
           className="App-link"
           href="https://reactjs.org"

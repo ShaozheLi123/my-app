@@ -1,5 +1,20 @@
 
 
+interface Person {
+    name: string
+    hairColor: string
+}
+
+
+const lsz: Person = {name: "Shaozhe", hairColor: "black"}
+const shaozhe: Person = {name: "Shaozhe Li", hairColor: "blue"}
+
+const {name, hairColor} = lsz
+console.log(name);
+
+const [first, second] = [1,2]
+console.log(first);
+
 function adder(first: number, second:number): number{
     return first + second;    
 }

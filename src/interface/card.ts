@@ -7,8 +7,8 @@ export enum CardKind{
 }
 
 export interface Card{
-    Number: number;
-    Kind: CardKind;
-    Question: string;
-    Answer: string;
+    number: number;
+    kind: CardKind;
+    question: string;
+    answer: string;
 }

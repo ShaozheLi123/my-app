@@ -1,183 +1,183 @@
 
 [
-    {
-      "Number": 1,
-      "Kind": "Fun Quiz",
-      "Question": "What word is spelled incorrectly in every single dictionary?",
-      "Answer": "Incorrectly"
-    },
-    {
-      "Number": 2,
-      "Kind": "Fun Quiz",
-      "Question": "What goes up and down but can't move?",
-      "Answer": "A staircase"
-    },
-    {
-      "Number": 3,
-      "Kind": "Fun Quiz",
-      "Question": "What goes up but never down?",
-      "Answer": "Your ages"
-    },
-    {
-      "Number": 4,
-      "Kind": "Fun Quiz",
-      "Question": "I have one head, one foot, and four legs. What am I?",
-      "Answer": "Your bed"
-    },
-    {
-      "Number": 5,
-      "Kind": "Fun Quiz",
-      "Question": "What runs, but never walks. Murmurs, but never talks. Has a bed, but never sleeps. And has a mouth, but never eats?",
-      "Answer": "A river"
-    },
-    {
-      "Number": 6,
-      "Kind": "Fun Quiz",
-      "Question": "I have teeth but can’t eat. What am I?",
-      "Answer": "A comb"
-    },
-    {
-      "Number": 7,
-      "Kind": "Fun Quiz",
-      "Question": "If I drink, I die. If I eat, I’m fine. What am I?",
-      "Answer": "A fire"
-    },
-    {
-      "Number": 8,
-      "Kind": "Fun Quiz",
-      "Question": "I’m light as a feather, but not even the strongest girl can hold me for more than 5 minutes. What am I?",
-      "Answer": "Breath"
-    },
-    {
-      "Number": 9,
-      "Kind": "Fun Quiz",
-      "Question": "How can the pocket of your pants be empty, but still have something in it?",
-      "Answer": "When the something is a hole"
-    },
-    {
-      "Number": 10,
-      "Kind": "Fun Quiz",
-      "Question": "A girl fell off a 50-foot ladder but didn’t get hurt. How come?",
-      "Answer": "She fell off the bottom rung."
-    },
-    {
-      "Number": 11,
-      "Kind": "Fun Quiz",
-      "Question": "If two’s company and three’s a crowd, what do four and five make?",
-      "Answer": "Nine"
-    },
-    {
-      "Number": 12,
-      "Kind": "Fun Quiz",
-      "Question": "Is it legal for a man to marry his widow’s sister?",
-      "Answer": "No, but since he is dead it would be hard to do so."
-    },
-    {
-      "Number": 13,
-      "Kind": "Fun Quiz",
-      "Question": "What breaks and never falls, and what falls and never breaks?",
-      "Answer": "Day breaks and night falls"
-    },
-    {
-      "Number": 14,
-      "Kind": "Fun Quiz",
-      "Question": "What starts with “e” and ends with “e” but only has one letter in it?",
-      "Answer": "An envelope"
-    },
-    {
-      "Number": 15,
-      "Kind": "Fun Quiz",
-      "Question": "How can a girl go 25 days without sleep?",
-      "Answer": "She sleeps at night."
-    },
-    {
-      "Number": 16,
-      "Kind": "Easy Guess",
-      "Question": "What has a face and two hands but no arms or legs?",
-      "Answer": "A clock"
-    },
-    {
-      "Number": 17,
-      "Kind": "Easy Guess",
-      "Question": "What gets wetter as it dries?",
-      "Answer": "A towel"
-    },
-    {
-      "Number": 18,
-      "Kind": "Easy Guess",
-      "Question": "What has a neck but no Head?",
-      "Answer": "A bottle"
-    },
-    {
-      "Number": 19,
-      "Kind": "Easy Guess",
-      "Question": "What belongs to you but is used by others?",
-      "Answer": "Your name"
-    },
-    {
-      "Number": 20,
-      "Kind": "Easy Guess",
-      "Question": "What has a thumb and four fingers but is not alive?",
-      "Answer": "A glove"
-    },
-    {
-      "Number": 21,
-      "Kind": "Easy Guess",
-      "Question": "What has to be broken before you can use it?",
-      "Answer": "An egg"
-    },
-    {
-      "Number": 22,
-      "Kind": "Easy Guess",
-      "Question": "You can catch it but cannot throw it. What is it?",
-      "Answer": "Clod"
-    },
-    {
-      "Number": 23,
-      "Kind": "Easy Guess",
-      "Question": "What is so delicate that uttering just one word will break it?",
-      "Answer": "Silence"
-    },
-    {
-      "Number": 24,
-      "Kind": "Easy Guess",
-      "Question": "Where do you find an ocean with no water?",
-      "Answer": "On map"
-    },
-    {
-      "Number": 25,
-      "Kind": "Easy Guess",
-      "Question": "What is the easiest way to double your money?",
-      "Answer": "Put it in front of a mirror"
-    },
-    {
-      "Number": 26,
-      "Kind": "Hard Guess",
-      "Question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
-      "Answer": "An echo"
-    },
-    {
-      "Number": 27,
-      "Kind": "Hard Guess",
-      "Question": "You measure my life in hours and I serve you by expiring. I’m quick when I’m thin and slow when I’m fat. The wind is my enemy.",
-      "Answer": "A candle"
-    },
-    {
-      "Number": 28,
-      "Kind": "Hard Guess",
-      "Question": "What is seen in the middle of March and April that can’t be seen at the beginning or end of either month?",
-      "Answer": "The letter “R.”"
-    },
-    {
-      "Number": 29,
-      "Kind": "Hard Guess",
-      "Question": "You see a boat filled with people. It has not sunk, but when you look again you don’t see a single person on the boat. Why?",
-      "Answer": "All the people were married."
-    },
-    {
-      "Number": 30,
-      "Kind": "Hard Guess",
-      "Question": "What word in the English language does the following: the first two letters signify a male, the first three letters signify a female, the first four letters signify a great, while the entire world signifies a great woman. What is the word?",
-      "Answer": "Heroine"
-    }
-  ]
+  {
+    "number": 1,
+    "kind": "Fun Quiz",
+    "question": "What word is spelled incorrectly in every single dictionary?",
+    "answer": "Incorrectly"
+  },
+  {
+    "number": 2,
+    "kind": "Fun Quiz",
+    "question": "What goes up and down but can't move?",
+    "answer": "A staircase"
+  },
+  {
+    "number": 3,
+    "kind": "Fun Quiz",
+    "question": "What goes up but never down?",
+    "answer": "Your ages"
+  },
+  {
+    "number": 4,
+    "kind": "Fun Quiz",
+    "question": "I have one head, one foot, and four legs. What am I?",
+    "answer": "Your bed"
+  },
+  {
+    "number": 5,
+    "kind": "Fun Quiz",
+    "question": "What runs, but never walks. Murmurs, but never talks. Has a bed, but never sleeps. And has a mouth, but never eats?",
+    "answer": "A river"
+  },
+  {
+    "number": 6,
+    "kind": "Fun Quiz",
+    "question": "I have teeth but can’t eat. What am I?",
+    "answer": "A comb"
+  },
+  {
+    "number": 7,
+    "kind": "Fun Quiz",
+    "question": "If I drink, I die. If I eat, I’m fine. What am I?",
+    "answer": "A fire"
+  },
+  {
+    "number": 8,
+    "kind": "Fun Quiz",
+    "question": "I’m light as a feather, but not even the strongest girl can hold me for more than 5 minutes. What am I?",
+    "answer": "Breath"
+  },
+  {
+    "number": 9,
+    "kind": "Fun Quiz",
+    "question": "How can the pocket of your pants be empty, but still have something in it?",
+    "answer": "When the something is a hole"
+  },
+  {
+    "number": 10,
+    "kind": "Fun Quiz",
+    "question": "A girl fell off a 50-foot ladder but didn’t get hurt. How come?",
+    "answer": "She fell off the bottom rung."
+  },
+  {
+    "number": 11,
+    "kind": "Fun Quiz",
+    "question": "If two’s company and three’s a crowd, what do four and five make?",
+    "answer": "Nine"
+  },
+  {
+    "number": 12,
+    "kind": "Fun Quiz",
+    "question": "Is it legal for a man to marry his widow’s sister?",
+    "answer": "No, but since he is dead it would be hard to do so."
+  },
+  {
+    "number": 13,
+    "kind": "Fun Quiz",
+    "question": "What breaks and never falls, and what falls and never breaks?",
+    "answer": "Day breaks and night falls"
+  },
+  {
+    "number": 14,
+    "kind": "Fun Quiz",
+    "question": "What starts with “e” and ends with “e” but only has one letter in it?",
+    "answer": "An envelope"
+  },
+  {
+    "number": 15,
+    "kind": "Fun Quiz",
+    "question": "How can a girl go 25 days without sleep?",
+    "answer": "She sleeps at night."
+  },
+  {
+    "number": 16,
+    "kind": "Easy Guess",
+    "question": "What has a face and two hands but no arms or legs?",
+    "answer": "A clock"
+  },
+  {
+    "number": 17,
+    "kind": "Easy Guess",
+    "question": "What gets wetter as it dries?",
+    "answer": "A towel"
+  },
+  {
+    "number": 18,
+    "kind": "Easy Guess",
+    "question": "What has a neck but no Head?",
+    "answer": "A bottle"
+  },
+  {
+    "number": 19,
+    "kind": "Easy Guess",
+    "question": "What belongs to you but is used by others?",
+    "answer": "Your name"
+  },
+  {
+    "number": 20,
+    "kind": "Easy Guess",
+    "question": "What has a thumb and four fingers but is not alive?",
+    "answer": "A glove"
+  },
+  {
+    "number": 21,
+    "kind": "Easy Guess",
+    "question": "What has to be broken before you can use it?",
+    "answer": "An egg"
+  },
+  {
+    "number": 22,
+    "kind": "Easy Guess",
+    "question": "You can catch it but cannot throw it. What is it?",
+    "answer": "Clod"
+  },
+  {
+    "number": 23,
+    "kind": "Easy Guess",
+    "question": "What is so delicate that uttering just one word will break it?",
+    "answer": "Silence"
+  },
+  {
+    "number": 24,
+    "kind": "Easy Guess",
+    "question": "Where do you find an ocean with no water?",
+    "answer": "On map"
+  },
+  {
+    "number": 25,
+    "kind": "Easy Guess",
+    "question": "What is the easiest way to double your money?",
+    "answer": "Put it in front of a mirror"
+  },
+  {
+    "number": 26,
+    "kind": "Hard Guess",
+    "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+    "answer": "An echo"
+  },
+  {
+    "number": 27,
+    "kind": "Hard Guess",
+    "question": "You measure my life in hours and I serve you by expiring. I’m quick when I’m thin and slow when I’m fat. The wind is my enemy.",
+    "answer": "A candle"
+  },
+  {
+    "number": 28,
+    "kind": "Hard Guess",
+    "question": "What is seen in the middle of March and April that can’t be seen at the beginning or end of either month?",
+    "answer": "The letter “R.”"
+  },
+  {
+    "number": 29,
+    "kind": "Hard Guess",
+    "question": "You see a boat filled with people. It has not sunk, but when you look again you don’t see a single person on the boat. Why?",
+    "answer": "All the people were married."
+  },
+  {
+    "number": 30,
+    "kind": "Hard Guess",
+    "question": "What word in the English language does the following: the first two letters signify a male, the first three letters signify a female, the first four letters signify a great, while the entire world signifies a great woman. What is the word?",
+    "answer": "Heroine"
+  }
+]

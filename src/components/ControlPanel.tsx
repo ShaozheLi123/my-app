@@ -1,7 +1,7 @@
 import {Button, Col} from "react-bootstrap";
 import { Card } from "../interface/card";
 import CARDS from '../assets/cards.json';
-import { getRandomElement } from "../utilities/data";
+import { getRandomElement, shuffle } from "../utilities/data";
 import { UserList } from "./UserList";
 import { useState } from "react";
 import { Task as User} from "editable-dnd-list";

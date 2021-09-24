@@ -1,6 +1,5 @@
 import {Button, Col} from "react-bootstrap";
 import { Card } from "../interface/card";
-import CARDS from '../assets/cards.json';
 import { getRandomElement, shuffle } from "../utilities/data";
 import { UserList } from "./UserList";
 import { useState } from "react";
@@ -23,14 +22,15 @@ export const INITIAL_USERS: User[] = [
     }
   }
 
-export function ControlPanel({setCard, reveal, answerRevealed}: 
-    {setCard: (c: Card)=>void, reveal: (r:boolean)=>void, answerRevealed: boolean}) : JSX.Element{
+export function ControlPanel({setCard, reveal, answerRevealed, showAddCardModal, deck}: 
+    {setCard: (c: Card)=>void, reveal: (r:boolean)=>void, answerRevealed: boolean, 
+    showAddCardModal: (b: boolean) => void, deck: Card[]}) : JSX.Element{
         const [users, setUsers] = useState<User[]>(getLocalStorageUsers());
 
         
     function setRandomCard(){
         reveal(false);
-        setCard(getRandomElement(CARDS as Card[]))
+        setCard(getRandomElement(deck))
     }
     
     function shuffleUsers() {
@@ -42,6 +42,10 @@ export function ControlPanel({setCard, reveal, answerRevealed}:
         localStorage.setItem(LOCAL_STORAGE_USERS, JSON.stringify(users));
     }
 
+    function addNewCard() {
+        showAddCardModal(true);
+      }
+
     return <Col>
     <h1>Control Panel </h1>
     <UserList users={users} setUsers={setUsers}></UserList>
@@ -49,5 +53,6 @@ export function ControlPanel({setCard, reveal, answerRevealed}:
     <Button onClick = {() => reveal(!answerRevealed)} className = "m-4"> Reveal Answer</Button>
     <Button onClick={shuffleUsers} className="m-4">Shuffle Users</Button>
     <Button onClick={save} className="m-4" variant="success">Save</Button>
+    <Button onClick={addNewCard} className="m-4">Add new card</Button>
     </Col>
 }

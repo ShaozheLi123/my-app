@@ -10,7 +10,7 @@ export function CardViewer({card, answerRevealed}: {card: Card, answerRevealed: 
             <strong>Card Question:</strong> {card.question}
         </BootstrapCard.Text>
         {answerRevealed && <BootstrapCard.Text>
-            <strong>Suggested Answer:</strong> {card.answer}
+            <strong data-testid="answer-label">Suggested Answer:</strong> {card.answer}
         </BootstrapCard.Text>}
         </BootstrapCard.Body>
     </BootstrapCard>

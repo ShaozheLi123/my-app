@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "react-bootstrap";
 import { Form } from "react-bootstrap";
-import { ControlPanel } from '../components/ControlPanel';
 
 export function TypeInAnswer ({typeinanswer, settypeinanswer, checkAnswer}: 
     {typeinanswer: string, settypeinanswer: (t: string)=> void, 
